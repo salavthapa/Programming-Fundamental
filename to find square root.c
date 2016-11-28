@@ -14,9 +14,9 @@ int main(){
     printf("Enter the square root of a:\n");
     scanf("%f",&a);
     b=pow(a,2);
-    c=pow(b,0.5);
-    printf("the square root  of a: %f",b);
-    printf("the square root of a: %f",c);
+    c=sqrt(b);
+    printf("the square of a: %f\n",b);
+    printf("the square root of a: %f\n",c);
     return 0;
 }
 
